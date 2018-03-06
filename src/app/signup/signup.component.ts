@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
-
+	'title' = "This is my Title";
+	'name' = ''
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
